@@ -5,6 +5,8 @@
 # Track'n Roll - Backend
 
 O Track’n Roll é um aplicativo desenvolvido para estabelecimentos divulgarem eventos para artistas. Conta com filtros por gêneros musicais, contato e outras informações de eventos, além de uma interface intuitiva e simples de usar.
+
+Esse aplicativo possui um frontend, que pode ser encontrado [aqui](https://github.com/uesleisuptitz/trackandroll)
   
 ## Tecnologias
 
