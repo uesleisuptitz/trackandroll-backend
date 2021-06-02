@@ -1,0 +1,56 @@
+[debug] [2021-04-07T13:51:19.420Z] ----------------------------------------------------------------------
+[debug] [2021-04-07T13:51:19.424Z] Command:       /usr/local/Cellar/nvm/0.35.3/versions/node/v10.14.2/bin/node /usr/local/bin/firebase serve
+[debug] [2021-04-07T13:51:19.424Z] CLI Version:   7.13.0
+[debug] [2021-04-07T13:51:19.424Z] Platform:      darwin
+[debug] [2021-04-07T13:51:19.424Z] Node Version:  v10.14.2
+[debug] [2021-04-07T13:51:19.426Z] Time:          Wed Apr 07 2021 10:51:19 GMT-0300 (GMT-03:00)
+[debug] [2021-04-07T13:51:19.426Z] ----------------------------------------------------------------------
+[debug] [2021-04-07T13:51:19.426Z] 
+[debug] [2021-04-07T13:51:19.447Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-07T13:51:19.447Z] > authorizing via signed-in user
+[debug] [2021-04-07T13:51:19.448Z] [iam] checking project track-and-roll for permissions ["firebase.projects.get"]
+[debug] [2021-04-07T13:51:19.451Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/track-and-roll:testIamPermissions  
+
+[debug] [2021-04-07T13:51:20.385Z] <<< HTTP RESPONSE 200
+[debug] [2021-04-07T13:51:20.389Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/track-and-roll  
+ 
+[debug] [2021-04-07T13:51:20.795Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/uesleisuptitz/projetos/backend/backend'...
+[info] 
+[debug] [2021-04-07T13:51:20.802Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/track-and-roll/webApps/-/config  
+ 
+[info] ✔  functions: Using node@10 from host.
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2021-04-07T13:51:21.380Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/uesleisuptitz/projetos/backend/backend/functions" for Cloud Functions...
+[debug] [2021-04-07T13:51:21.432Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-04-07T13:51:21.432Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-04-07T13:51:21.432Z] [worker-pool] submitWork(triggerId=)
+[debug] [2021-04-07T13:51:21.434Z] [worker-~diagnostic~-cc44e100-4e77-4574-a092-eb3c20c9fc36]: Assigning socketPath: /var/folders/20/c_td9cj914g5vnt5jsh_vp240000gp/T/fire_emu_3128.sock
+[debug] [2021-04-07T13:51:21.434Z] [worker-~diagnostic~-cc44e100-4e77-4574-a092-eb3c20c9fc36]: BUSY
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2021-04-07T13:51:21.984Z] [runtime-status] [3128] Functions runtime initialized. {"cwd":"/Users/uesleisuptitz/projetos/backend/backend/functions","node_version":"10.14.2"}
+[debug] [2021-04-07T13:51:21.986Z] [runtime-status] [3128] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2021-04-07T13:51:21.998Z] [runtime-status] [3128] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/uesleisuptitz/projetos/backend/backend/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-04-07T13:51:22.001Z] [runtime-status] [3128] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.8.0","resolution":"/Users/uesleisuptitz/projetos/backend/backend/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-04-07T13:51:22.003Z] [runtime-status] [3128] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.8.0","resolution":"/Users/uesleisuptitz/projetos/backend/backend/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[app]: http function initialized (http://localhost:5001/track-and-roll/us-central1/app).
+[debug] [2021-04-07T13:51:23.309Z] [worker-~diagnostic~-cc44e100-4e77-4574-a092-eb3c20c9fc36]: IDLE
+[debug] [2021-04-07T14:12:31.144Z] File /Users/uesleisuptitz/projetos/backend/backend/functions/index.js changed, reloading triggers
+[debug] [2021-04-07T14:12:32.150Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2021-04-07T14:12:32.150Z] [worker-~diagnostic~-cc44e100-4e77-4574-a092-eb3c20c9fc36]: FINISHING
+[debug] [2021-04-07T14:12:32.165Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-04-07T14:12:32.167Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2021-04-07T14:12:32.167Z] [worker-pool] submitWork(triggerId=)
+[debug] [2021-04-07T14:12:32.167Z] [worker-~diagnostic~-fadfdad4-00e3-4cc0-82db-319eea3932a0]: Assigning socketPath: /var/folders/20/c_td9cj914g5vnt5jsh_vp240000gp/T/fire_emu_3313.sock
+[debug] [2021-04-07T14:12:32.168Z] [worker-~diagnostic~-fadfdad4-00e3-4cc0-82db-319eea3932a0]: BUSY
+[debug] [2021-04-07T14:12:32.171Z] [worker-~diagnostic~-cc44e100-4e77-4574-a092-eb3c20c9fc36]: exited
+[debug] [2021-04-07T14:12:32.171Z] [worker-~diagnostic~-cc44e100-4e77-4574-a092-eb3c20c9fc36]: FINISHED
+[debug] [2021-04-07T14:12:33.293Z] [runtime-status] [3313] Functions runtime initialized. {"cwd":"/Users/uesleisuptitz/projetos/backend/backend/functions","node_version":"10.14.2"}
+[debug] [2021-04-07T14:12:33.297Z] [runtime-status] [3313] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2021-04-07T14:12:33.300Z] [runtime-status] [3313] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/uesleisuptitz/projetos/backend/backend/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-04-07T14:12:33.302Z] [runtime-status] [3313] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.8.0","resolution":"/Users/uesleisuptitz/projetos/backend/backend/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-04-07T14:12:33.304Z] [runtime-status] [3313] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.8.0","resolution":"/Users/uesleisuptitz/projetos/backend/backend/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-04-07T14:12:34.783Z] [worker-~diagnostic~-fadfdad4-00e3-4cc0-82db-319eea3932a0]: IDLE
